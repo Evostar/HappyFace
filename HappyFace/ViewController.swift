@@ -7,9 +7,26 @@
 //
 
 import UIKit
+//import FaceView
+// model 
+  var happiness: Int? // add ?
+// var happiness = Int()
+
+
+
 
 class ViewController: UIViewController {
 
+   
+    
+  
+    @IBOutlet weak var FaceView: UIView!
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

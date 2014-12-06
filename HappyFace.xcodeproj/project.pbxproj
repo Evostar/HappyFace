@@ -13,6 +13,7 @@
 		5EFFB2651A32AAD800285863 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFFB2641A32AAD800285863 /* Images.xcassets */; };
 		5EFFB2681A32AAD800285863 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EFFB2661A32AAD800285863 /* LaunchScreen.xib */; };
 		5EFFB2741A32AAD800285863 /* HappyFaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFFB2731A32AAD800285863 /* HappyFaceTests.swift */; };
+		5EFFB27E1A32AD2100285863 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFFB27D1A32AD2100285863 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5EFFB26D1A32AAD800285863 /* HappyFaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyFaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFFB2721A32AAD800285863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EFFB2731A32AAD800285863 /* HappyFaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyFaceTests.swift; sourceTree = "<group>"; };
+		5EFFB27D1A32AD2100285863 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceView.swift; path = ../FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				5EFFB25D1A32AAD800285863 /* AppDelegate.swift */,
+				5EFFB27D1A32AD2100285863 /* FaceView.swift */,
 				5EFFB25F1A32AAD800285863 /* ViewController.swift */,
 				5EFFB2611A32AAD800285863 /* Main.storyboard */,
 				5EFFB2641A32AAD800285863 /* Images.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				5EFFB2601A32AAD800285863 /* ViewController.swift in Sources */,
 				5EFFB25E1A32AAD800285863 /* AppDelegate.swift in Sources */,
+				5EFFB27E1A32AD2100285863 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
